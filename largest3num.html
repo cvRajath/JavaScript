@@ -10,11 +10,16 @@
     <h1 id="value"></h1>
      
      <script>
-       const num1=(prompt("enter first number :"));
-       const num2=(prompt("enter second number:"));
-       const num3=(prompt("enter third number :"));
+       let num1=(prompt("enter first number :"));
+       let num2=(prompt("enter second number:"));
+       let num3=(prompt("enter third number :"));
+
+       num1=Number(num1)
+       num2=Number(num2)
+       num3=Number(num3)
+
         
-       let largest;
+     
 
        if(num1>=num2 && num1>=num3){
         document.getElementById("value").innerHTML= num1+ "is bigger"

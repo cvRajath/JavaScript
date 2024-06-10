@@ -11,7 +11,7 @@ let space=n-i
        c+=" "
    }
    for(let k=1;k<=i*2-1;k++){
-       c+="*"
+       c+=k
    }
    console.log(c)
 }

@@ -9,4 +9,3 @@ let s="madam"
  }else{
      console.log("not a palidrome")
  }
- console.log("hg")
